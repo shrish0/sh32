@@ -1,0 +1,180 @@
+body{
+    color: black;
+    padding: 1px;
+    margin: 0px;
+    background: url('https://source.unsplash.com/random/?white') center;
+    background: url('img\\vertical-pattern-frame-brown-petals-white-background-68978343.jpg') ;
+    width: 100%;
+    /* background-size: cover; */
+}
+header{
+    display: block;
+    color: white;
+    position: absolute;
+    border:5px solid black ;
+    width: 99%;
+    margin-left: 3px;
+    background-color: grey;
+    height: auto;
+    border-radius: 30px;
+    
+}
+footer{
+    color: white;
+    background-color: grey;
+    border:5px solid black ;
+    width: 99%;
+    margin-left: 3px;
+    position: relative;
+    display: flex;
+    height: 13.5em;
+    /* margin-bottom: 1em; */
+    border-radius: 30px;
+    font-size: 1.8em;
+}
+footer li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer ul li{
+    margin-left: -1.3em;
+    color: black;
+    font:bold;
+    padding-bottom: 0.45em;
+}
+
+footer ul li a:hover
+{
+    position: relative;
+    color: green;
+    left: 45px;
+    font-size: 1.5em;
+}
+
+footer button
+{
+    position: relative;
+    margin-right: 50px;
+    background-color: green;
+    /* left: 45px;
+    font-size: .9em; */
+}
+
+footer button:hover
+{
+    position: relative;
+    color: green;
+    left: 45px;
+    font-size: .9em;
+}
+
+footer ul li img
+{
+    height: 1em;
+    width: 3em;
+}
+
+#foot1{
+    width: 35%;
+    margin-left: 1em;
+}
+
+#foot2
+{
+    width: 50%;
+    padding-bottom: 1em;
+}
+#foot3{
+    width: 25%;
+}
+
+
+.left{
+    /* border:solid white 5px; */
+    margin-left: 2px;
+    display: inline-block;
+    border-radius : 22px;
+    position: absolute;
+    left: 13px;
+    font-size: 1.5em;
+    font-family: "Lobster",cursive;
+    padding: 0px;
+    text-align: center;
+    top: 2px;
+    width: 5%;
+    height: 80%;
+}
+.mid{
+    display: block;
+    width: 75%;
+    margin: 2px auto ;
+    /* position: relative; */
+    top: 1.4em;
+}
+.right{
+    border: 6px solid hsl(0, 33%, 99%);
+    margin-right: 2px;
+    display: inline-block;
+    position: absolute;
+    right: 0.1em;
+    bottom: 30%; 
+    padding: 3px;
+    width :auto;
+}
+@media (max-width:1450px)
+        {
+            .right
+            {
+                display: none;
+            }
+            .mid
+            {
+                width: 90%;
+            }
+        }
+.right input{
+    width: 75%;
+}
+.navbar{
+    display :inline-block;
+    color: wheat;
+}
+.navbar li{
+    display :inline;
+    text-decoration: none;
+    color: white;
+    padding: 14px 19px;
+    margin-bottom: 14px;
+    font-size: 2.3em;
+    font-family:   'Times New Roman', serif;
+    font: bold;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.navbar li a:hover,.navbar li a.active{
+    display :inline;
+    color: rgb(190, 190, 41);
+    padding: 3px 3px;
+    box-shadow: 0px 0px 4px 5px;
+   
+}
+
+.navbar li a:hover{
+    position: relative;
+    top: 10px;
+}
+.left img{
+    width :85%;
+    height: 70%;
+    border-radius: 50%;
+
+}

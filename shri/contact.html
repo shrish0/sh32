@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shri</title>
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+    <style>
+        body{
+            background: url('img\\vertical-pattern-frame-brown-petals-white-background-68978343.jpg') ;
+            background-image:"img\\seamless-black-white-square-pattern-design-94515814.jpg"  ;
+            background: url('img\\Light-Brown-Floral-Swirls-Pattern-Vector.webp') ;
+            /* background-size: cover; */
+        }
+        footer
+        {
+            top: 7em;
+            
+        }
+       
+        #img1{
+            border-radius: 30px;
+            margin: 40px;
+            width: 90%;
+            height: auto;
+        }
+        img{
+            flex-flow: row-reverse wrap;
+            border-radius: 22px;
+            width:100%;
+            padding: 0px;
+            height: auto;
+        }
+        .box{
+            margin: 3px 30px;
+            height: 15em;
+        }
+        #wel{
+            font-size: 1.8em;
+        }
+        .box p{
+            font-size: 1em;
+            font-family: cursive;
+        }
+        .enquire
+        {
+            /* padding-bottom: 6px; */
+            width:46%;
+            height: 7em;
+            font-family: 'Times New Roman', Times, serif;
+            /* border: 3px solid black; */
+            padding-bottom: 6px;
+            font: 30px;
+            margin:50px auto;
+        }
+        .enquire input{
+            height: 4em;
+            width: 70%;
+            margin: 10px;
+            border-radius: 5px;
+
+        }
+       
+        #heading_div{
+    width: 100%;
+    height: 100px;
+    margin: 24px 0px 0px 0px; 
+}
+
+#heading_div h1{
+    width: 40%;
+    height: 60px;
+    margin: 30px 0px 0px 432px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 61px;
+    color: rgb(85 255 145);
+}
+
+/* designing of form starts here */
+
+.form{
+    height: 650px;
+    width: 40%;
+    margin: 175px 0px 0px 434px; 
+    text-align: left;
+} 
+
+#username{
+    margin: 0px 0px 0px 108px;
+    
+}
+
+#email{
+    margin: 0px 0px 0px 108px;
+    
+}
+
+#description{
+    margin: 0px 0px 28px 46px;
+    
+}
+
+.form_heading{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 50px;
+    width: 130px;
+    margin: 35px 0px 5px 0px;
+    color: rgb(10, 8, 8);
+    font-size: 30px;
+}
+
+.info{
+            display: flex;
+            top: 5em;
+            width: 90%;
+            margin: 2px auto ;
+            border-radius : 22px; 
+            position: relative;
+            justify-content: space-evenly;
+            font-size: 30px;
+            height: 13em;
+        }
+        #img1{
+            border-radius: 30px;
+            margin: 40px;
+            width: 100%;
+            height: auto;
+        }
+        img{
+            /* flex-flow: row-reverse wrap; */
+            border-radius: 22px;
+            height: 10em;
+        }
+        .box{
+            margin: 3px 30px;
+            flex-flow: column-reverse wrap;
+            height: auto;
+        }
+        #wel{
+            font-size: 3em;
+            position: relative;
+            top: 3em;
+           margin-left: 3em;
+        }
+        .box p{
+            font-size: 1em;
+            font-family: cursive;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="img\logo.jpg">
+            <div>Shri</div>
+        </div>
+        <div class="mid">
+            <ul class ='navbar' >
+                <li><a href='shri.html'>Home</a></li>
+                <li><a href='booking.html' >Booking</a></li>
+                <li><a href='service.html'>service</a></li>
+                <li><a href='record.html' >record</a></li>
+                <li><a href='aboutus.html' >about us</a></li>
+                <li><a href='#' class="active">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <input type="text" placeholder="search...">
+            <button>go</button>
+        </div>
+    </header>
+    <h1 id="wel"> Contact With Us</h1>
+    <div class="info">
+        <div class="box" id="img1">
+            <img src="img\\contact.jpeg" >
+        </div>
+        <div class="box">
+            <p id="p0">Type in</p>
+            <p id="p1">Anything</p>
+            <p id="p2">you want we will</p>
+            <p id="p3">Respond</p>
+        </div>
+    </div>
+    <!-- <div id="cont">
+        <h1> Contact With Us</h1>
+        <img src="img\\contact.jpeg" >
+      </div> -->
+  
+      <!-- <div id="image1">
+      </div> -->
+  
+      
+      <!--HTML content of form starts here-->
+  
+      <div class="form" id="form1">
+          <form action="contact.php" method="post">
+              <h2 class="form_heading">Username</h2>
+              <input type="text" placeholder="What you like to be called" name="username">
+              <br>
+              <h2 class="form_heading">Email</h2>
+              <input type="email" placeholder="Enter your valid email" name="email">
+              <br>
+              <h2 class="form_heading">Description</h2>
+              <label for="Description"></label>
+              <textarea rows="7" cols="40" placeholder="COMPLAINT : Give a brief Description of the issues that you are facing. Then only we will we able to assist you. SUGGESTIONS : Any suggestions are most welcomed " name="description"></textarea><br>
+              
+              <input type="submit" value="Submit" class="enquire" >
+              <input type="reset" value="reset" class="enquire" ><br>
+            </form>
+      </div>
+    <footer>
+        <div id="foot1">
+            <h1>Developer</h1>
+        <ul>
+            <li><a href="https://www.instagram.com/sh_ri_sh_/" >Shrish gupta</a></li>
+            <li><a href="https://www.instagram.com/avvikramverma/"  target="_blank" >Ajay veer vikram</a></li>
+            <li><a href="https://instagram.com/rishavsuryavanshi02?igshid=MWM2YjBjM2Q=" target="_blank">Rishav Kumar Singh</a></li>
+            <li><a href="https://www.instagram.com/invincible_782/" class="Developer" target="_blank">Aman pandey</a></li></ul>
+        </div>
+        <div id="foot2">
+            <h1>Resources</h1>
+            <ul>
+                <li ><a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">HTML 5 <span><img src="img\download.png" alt="" class="resource_img"></span></a></li>
+                <li ><a href="https://en.wikipedia.org/wiki/CSS#CSS_3" target="_blank">CSS3 <span><img src="img\download (1).png" alt="" class="resource_img"></span></a></li>
+                <li ><a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript   <span><img src="img\download (2).png" alt="" class="resource_img"></span></a></li>
+                <li><a href="https://nodejs.org/" target="_blank">Node Js  <span><img src="img\download (4).png" alt="" class="resource_img"></span></a></li>
+                <li><a href="https://www.mysql.com/" target="_blank">MySql   <span><img src="img\download (3).png" alt="" class="resource_img"></span></a></li>
+            </ul>
+        </div>
+        <div id="foot3">
+            <h1>Social</h1>
+            <ul>
+                <li><A href="https://www.instagram.com/sh_ri_sh_/" target="_blank">INSTAGRAM</A></li>
+                <li><A href="https://www.facebook.com/shrish.gupta.9231" target="_blank">FACEBOOK</A></li>
+                <li><a href="" >TELEGRAM</a></li>
+                <li><a href="">LINKDIN</a></li>
+                <li><a href="">SNAPCHAT</a></li>
+            </ul>
+            <button><a href="" target="_top" ><h1>To Top</h1></a></button>
+        </div>
+    </footer> 
+</body>
+</html>

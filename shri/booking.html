@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking</title>
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+    <style>
+        body{
+            background: url('https://source.unsplash.com/random/?white')  center;
+            background: url('img\\Light-Brown-Floral-Swirls-Pattern-Vector.webp') ;
+            
+            /* background-size: cover; */
+        }
+        .field{
+            /* border:14px solid black; */
+            height: 60%;
+            margin: 0px auto ;
+            border-radius : 22px; 
+            position: relative;
+            top: .5em;
+            align-content: center;
+            font-size: 2em;
+            width: 33%;
+            padding: 0px;
+            text-align: left;
+            font-family: cursive;
+            text-shadow: -5px 7px 0px grey;
+        }
+       footer{
+        top :11em;
+
+       }
+        .container{
+            border: 13px solid antiquewhite;
+            display: flex;
+            width: 80%;
+            height: auto;
+            margin: 2px auto ;
+            border-radius : 22px; 
+            position: relative; 
+            top: 250px;
+            justify-content:left;
+            font-size: 30px;
+            flex-flow:row wrap;
+        }
+
+        /* .field input
+        {
+            font: 30px;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }  */
+        .enquire
+        {
+            /* padding-bottom: 6px; */
+            width:46%;
+            height: 7em;
+            font-family: 'Times New Roman', Times, serif;
+            /* border: 3px solid black; */
+            padding-bottom: 6px;
+            font: 30px;
+            margin:50px auto;
+        }
+        .enquire input{
+            height: 4em;
+            width: 70%;
+            margin: 10px;
+            border-radius: 5px;
+
+        }
+       
+        .info{
+            display: flex;
+            position: relative;
+            top: 6em;
+            margin: auto auto;
+            /* border: 10px solid black; */
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 2em;
+            color: darkgoldenrod;
+            padding: 8px 189px;
+            text-shadow: 7px 4px 6px black;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="img\logo.jpg">
+            <div>Shri</div>
+        </div>
+        <div class="mid">
+            <ul class ='navbar' >
+                <li><a href='shri.html' >Home</a></li>
+                <li><a href='#' class="active">Booking</a></li>
+                <li><a href='service.html'>service</a></li>
+                <li><a href='record.html'>record</a></li>
+                <li><a href='aboutus.html'>about us</a></li>
+                <li><a href='contact.html'>Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <input type="text" placeholder="search...">
+            <button>go</button>
+        </div>
+    </header>
+    <P class="info">
+        hello customer,<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+         please fill the form to submit some details so we can contact you.
+    </P>
+    <form action="booking.php" method="post">
+    <div class="container">
+        <div class="field">
+            <label for="name">Name : <br> </label> 
+            <label for="Audience">Audience : <br></label> 
+            <label for="Place">Place : <br> </label> 
+            <label for="Event">Event : <br> </label>  
+            <label for="email">email : <br></label>   
+            <label for="Contact">Contact no : <br></label>
+            <label for="Date">Date : <br></label> 
+          </div>
+             <div class="enquire">
+                <input type="text" name="name" placeholder="name" id="name"><br>
+                <input type="number" name="Audience" placeholder="audience" id="Audience" ><br>
+                <input type="text" name="Place" placeholder="Place" id="Place"><br>
+                <input type="text" name="Event" placeholder="Event" id="Event"><br>
+                <input type="email" name="email" placeholder="enter your mail" id="email"><br>
+                <input type="number" name="Contact" placeholder="Contact" id="Contact"><br>
+                <input type="date" name="Date" id ="Date" ><br>
+            </div>
+            <input type="submit" value="Submit" class="enquire" ><br>
+            <input type="reset" value="reset" class="enquire" ><br>
+        </form>
+        </div>
+        <footer>
+            <div id="foot1">
+                <h1>Developer</h1>
+            <ul>
+                <li><a href="https://www.instagram.com/sh_ri_sh_/" >Shrish gupta</a></li>
+                <li><a href="https://www.instagram.com/avvikramverma/"  target="_blank" >Ajay veer vikram</a></li>
+                <li><a href="https://instagram.com/rishavsuryavanshi02?igshid=MWM2YjBjM2Q=" target="_blank">Rishav Kumar Singh</a></li>
+                <li><a href="https://www.instagram.com/invincible_782/" class="Developer" target="_blank">Aman pandey</a></li></ul>
+            </div>
+            <div id="foot2">
+                <h1>Resources</h1>
+                <ul>
+                    <li ><a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">HTML 5 <span><img src="img\download.png" alt="" class="resource_img"></span></a></li>
+                    <li ><a href="https://en.wikipedia.org/wiki/CSS#CSS_3" target="_blank">CSS3 <span><img src="img\download (1).png" alt="" class="resource_img"></span></a></li>
+                    <li ><a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript   <span><img src="img\download (2).png" alt="" class="resource_img"></span></a></li>
+                    <li><a href="https://nodejs.org/" target="_blank">Node Js  <span><img src="img\download (4).png" alt="" class="resource_img"></span></a></li>
+                    <li><a href="https://www.mysql.com/" target="_blank">MySql   <span><img src="img\download (3).png" alt="" class="resource_img"></span></a></li>
+                </ul>
+            </div>
+            <div id="foot3">
+                <h1>Social</h1>
+                <ul>
+                    <li><A href="https://www.instagram.com/sh_ri_sh_/" target="_blank">INSTAGRAM</A></li>
+                    <li><A href="https://www.facebook.com/shrish.gupta.9231" target="_blank">FACEBOOK</A></li>
+                    <li><a href="" >TELEGRAM</a></li>
+                    <li><a href="">LINKDIN</a></li>
+                    <li><a href="">SNAPCHAT</a></li>
+                </ul>
+                <button><a href="" target="_top" ><h1>To Top</h1></a></button>
+            </div>
+        </footer> 
+</body>
+</html>
