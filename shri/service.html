@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>service</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="shri.js"></script>
+    <style>
+        body{
+            background: url('https://source.unsplash.com/random/?white') center;
+            background: url('img\\vertical-pattern-frame-brown-petals-white-background-68978343.jpg') ;
+            /* background-size: cover; */
+        }
+        
+        img{
+            flex-flow: row-reverse wrap;
+            border-radius: 22px;
+        }
+        footer{
+            margin-bottom: 0px;
+            top: 15em;
+        }
+        .container{
+            border: 13px solid antiquewhite;
+            display: flex;
+            width: 90%;
+            height: auto;
+            margin: 2px auto ;
+            border-radius : 22px; 
+            position: relative; 
+            top: 8em;
+            justify-content: center;
+            font-size: 30px;
+            flex-flow: row wrap;
+        }
+        .item{
+            border: 9px solid gainsboro;
+            margin: 45px;
+            width: 23%;
+            height: 65%;
+            padding: 10px 10px;
+        }
+        .item img{
+            width: 100%;
+            height: 10em;
+        }
+        
+        #wed{
+            display: none;
+        }
+        #sem{
+            display: none;
+        }
+        #smt{
+            display: none;
+        }
+        #bc{
+            display: none;
+        }
+        #sm{
+            display: none;
+        }
+        #con{
+            display: none;
+        }
+        #cf{
+            display: none;
+        }
+        #bm{
+            display: none;
+        }
+        
+        </style>
+        
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="img\logo.jpg">
+            <div>Shri</div>
+        </div>
+        <div class="mid">
+            <ul class ='navbar' >
+                <li><a href='shri.html' >Home</a></li>
+                <li><a href='booking.html' >Booking</a></li>
+                <li><a href='#' class="active">service</a></li>
+                <li><a href='record.html' >record</a></li>
+                <li><a href='aboutus.html'>about us</a></li>
+                <li><a href='contact.html'>Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="right">
+        <input type="text" placeholder="search...">
+        <button>go</button>
+    </div>
+    </header>
+    <div class="container">
+        <div class="item">1
+            <img src="img\wedding-1183271__340.jpg" alt=""><br>
+            wedding
+            <span id="wed">details 
+                <br>manager : mr xyz
+                <br>contact : 99xxxxxxx0
+                <br>email id : xyz@gmail.com
+            </span>
+            <button onclick="togglehide(btn1,wed)" id="btn1">for detail</button>
+            
+        </div>
+        <div class="item">2
+            <img src="img\smallgathering.png" alt="">
+            small get together
+            <span id="smt">details 
+                <br>manager : mr xyz
+                <br>contact : 99xxxxxxx0
+                <br>email id : xyz@gmail.com
+            </span>
+            <button onclick="togglehide(btn2,smt)" id="btn2">for detail</button>
+            
+        </div>
+        <div class="item">3
+            <img src="img\meeting.jpg" alt="">
+            business meeting
+            <span id="bm">details 
+                <br>manager : mr xyz
+                <br>contact : 99xxxxxxx0
+                <br>email id : xyz@gmail.com
+            </span>
+            <button onclick="togglehide(btn3,bm)" id="btn3">for detail</button>
+            
+        </div>
+        <div class="item">4
+            <img src="img\festival.jpg" alt="">
+            cultural fest
+            <span id="cf">details 
+                <br>manager : mr xyz
+                <br>contact : 99xxxxxxx0
+                <br>email id : xyz@gmail.com
+            </span>
+            <button onclick="togglehide(btn4,cf)" id="btn4">for detail</button>
+
+        </div>
+        <div class="item">5
+            <img src="img\conference.jpg" alt=""><br>
+            seminar
+            <span id="sem">details 
+                <br>manager : mr xyz
+                <br>contact : 99xxxxxxx0
+                <br>email id : xyz@gmail.com
+            </span>
+            <button onclick="togglehide(btn5,sem)" id="btn5">for detail</button>
+            
+        </div>
+        <div class="item">6
+            <img src="img\concert.jpg" alt=""><br>
+            consert
+            <span id="con">details 
+                <br>manager : mr xyz
+                <br>contact : 99xxxxxxx0
+                <br>email id : xyz@gmail.com
+            </span>
+            <button onclick="togglehide(btn6,con)" id="btn6">for detail</button>
+
+        </div>
+        <div class="item">7
+            <img src="img\birthday-2338813__340.jpg" alt=""><br>
+            birthday celebration
+            <span id="bc">details 
+                <br>manager : mr xyz
+                <br>contact : 99xxxxxxx0
+                <br>email id : xyz@gmail.com
+            </span>
+            <button onclick="togglehide(btn7,bc)" id="btn7">for detail</button>
+
+        </div>
+    </div>
+    <footer>
+        <div id="foot1">
+            <h1>Developer</h1>
+        <ul>
+            <li><a href="https://www.instagram.com/sh_ri_sh_/" >Shrish gupta</a></li>
+            <li><a href="https://www.instagram.com/avvikramverma/"  target="_blank" >Ajay veer vikram</a></li>
+            <li><a href="https://instagram.com/rishavsuryavanshi02?igshid=MWM2YjBjM2Q=" target="_blank">Rishav Kumar Singh</a></li>
+            <li><a href="https://www.instagram.com/invincible_782/" class="Developer" target="_blank">Aman pandey</a></li></ul>
+        </div>
+        <div id="foot2">
+            <h1>Resources</h1>
+            <ul>
+                <li ><a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">HTML 5 <span><img src="img\download.png" alt="" class="resource_img"></span></a></li>
+                <li ><a href="https://en.wikipedia.org/wiki/CSS#CSS_3" target="_blank">CSS3 <span><img src="img\download (1).png" alt="" class="resource_img"></span></a></li>
+                <li ><a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript   <span><img src="img\download (2).png" alt="" class="resource_img"></span></a></li>
+                <li><a href="https://nodejs.org/" target="_blank">Node Js  <span><img src="img\download (4).png" alt="" class="resource_img"></span></a></li>
+                <li><a href="https://www.mysql.com/" target="_blank">MySql   <span><img src="img\download (3).png" alt="" class="resource_img"></span></a></li>
+            </ul>
+        </div>
+        <div id="foot3">
+            <h1>Social</h1>
+            <ul>
+                <li><A href="https://www.instagram.com/sh_ri_sh_/" target="_blank">INSTAGRAM</A></li>
+                <li><A href="https://www.facebook.com/shrish.gupta.9231" target="_blank">FACEBOOK</A></li>
+                <li><a href="" >TELEGRAM</a></li>
+                <li><a href="">LINKDIN</a></li>
+                <li><a href="">SNAPCHAT</a></li>
+            </ul>
+            <button><a href="" target="_top" ><h1>To Top</h1></a></button>
+        </div>
+    </footer> 
+</body>
+</html>
